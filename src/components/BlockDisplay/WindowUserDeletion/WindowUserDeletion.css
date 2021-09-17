@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.box-delete {
+  width: 608px;
+  height: 284px;
+}
+
+.box-delete__title {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 56px;
+  background-color: #353d4b;
+  text-align: center;
+}
+
+.box-delete__title__p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.box-delete__content {
+  text-align: center;
+  background-color: white;
+  height: 168px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #353d4b;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box-delete__box-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+  background-color: #f6f7f9;
+}
+
+.box-delete__box-button__btn-cancel {
+  width: 164px;
+  height: 36px;
+  background-color: #e4e5e8;
+  color: #6d7885;
+  border-radius: 6px;
+  font-family: Roboto;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.box-delete__box-button__btn-delete {
+  background-color: #4587ed;
+  width: 153px;
+  color: white;
+  height: 36px;
+  cursor: pointer;
+  font-family: Roboto;
+  margin-right: 24px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 12px 24px;
+}

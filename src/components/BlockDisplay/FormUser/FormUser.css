@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.form-box {
+  width: 608px;
+  height: 620px;
+}
+
+.form-box__title {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 56px;
+  background-color: #353d4b;
+  text-align: center;
+}
+
+.form-box__title__p {
+  color: white;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: Medium;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.form-box__box-button__btn-close {
+  background-color: #353d4b;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 35px;
+  left: 270px;
+}
+.form-box__box-button__btn-close__img {
+  height: 18px;
+  width: 18px;
+}
+
+.form-box__main-box {
+  text-align: center;
+  background-color: white;
+  height: 504px;
+  font-size: 16px;
+  color: #353d4b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-box__box-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+  background-color: #f6f7f9;
+}
+
+.form-box__box-button__btn-create {
+  background-color: #4587ed;
+  width: 153px;
+  color: white;
+  height: 36px;
+  cursor: pointer;
+  margin-right: 24px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  margin: 12px 24px;
+}
+
+.form-box__box-button__btn-create:disabled {
+  opacity: 0.5;
+}
+
+.form-box__main-box__content__label__input {
+  width: 452px;
+  height: 36px;
+  border-radius: 6px;
+  border: solid 2px #ebecef;
+  background-color: #f9fafc;
+  font-size: 14px;
+  font-style: normal;
+  color: #353d4b;
+  font-family: Roboto;
+  padding: 0px 12px;
+}
+.form-box__main-box__content__label__input::placeholder {
+  color: #b8c1cc;
+}
+.form-box__main-box__content__label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #818c99;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-bottom: 28px;
+}
+
+.form-box__main-box__error {
+  margin: 0;
+  color: red;
+}
